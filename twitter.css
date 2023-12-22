@@ -1,0 +1,190 @@
+.container{
+   height: 535px;
+   width: 100%;
+   background-color: #181c1f;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.content{
+   background-color: rgb(0, 0, 0);
+   width: 40%;
+   height: 95%;
+   border: black solid 1px ;
+   border-radius: 20px;
+}
+
+.content:hover{
+   box-shadow:  0px 0px 20px 2px #595959; 
+}
+
+
+.logo{
+   background-color: rgb(0, 0, 0);
+   border-radius: 20px;
+   display: flex;
+}
+
+p, #twitterlogo{
+   display:inline;
+   align-items: center;
+ }
+
+#twitterlogo{
+   height: 40px;
+   width: 40px;
+   display: inline;
+   margin-left: 207.5px;
+   margin-top: 10px;
+}
+
+.logo p{
+   color: white;
+   padding-left: 10px;
+}
+.maincontent{
+   background-color: rgb(0, 0, 0);
+   width: 75%;
+   height:425px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 30px;
+}
+
+.google{
+   background-color: rgb(255, 255, 255);
+   width: 100%;
+   height: 35px;
+   margin-top: 30px;
+   border-radius: 40px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.google:hover{
+   padding:2px 2px 2px 2px;
+   background-color: #dadada;
+}
+
+#googlelogo{
+   height:20px;
+   width:20px;
+   margin-right: 10px;   
+}
+
+.google a{
+   color: rgb(58, 58, 58);
+   font-family:  helvetica;
+   text-decoration: none;
+}
+
+.apple{
+   background-color: rgb(255, 255, 255);
+   width: 100%;
+   height: 35px;
+   margin-top: 20px;
+   border-radius: 40px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 10px;
+}
+
+.apple:hover{
+   padding:2px 2px 2px 2px;
+   background-color: #dadada;
+}
+
+#applelogo{
+   height:20px;
+   width:20px;
+   margin-right: 10px;   
+}
+
+.apple a{
+   color: rgb(58, 58, 58);
+   font-family: roboto;
+   text-decoration: none;
+}
+
+.maincontent .or{
+   width:100%;
+   color:#858a8e;
+   font-size: 20px;
+   text-align: center;
+}
+
+.inputbox{
+   background-color: rgb(0, 0, 0);
+   margin-top: 10px;
+   height:50px;
+}
+
+.inputbox:hover{
+   padding:2px 2px 2px 2px;
+}
+
+input{
+   background-color: black;
+   width: 98%;
+   height:50px;
+}
+
+.next{
+   background-color: white;
+   width: 100%;
+   height: 35px;
+   margin-top: 20px;
+   border-radius: 45px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.next:hover{
+   padding:2px 2px 2px 2px;
+   background-color: #dadada;
+}
+
+.password{
+   background-color: rgb(0, 0, 0);
+   width: 100%;
+   height: 35px;
+   border: #858a8e solid 1px;
+   margin-top: 20px;
+   border-radius: 45px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.password:hover{
+   padding:2px 2px 2px 2px;
+}
+
+.account{
+   background-color: rgb(0, 0, 0);
+   margin-top: 10px;
+   width: 100%;
+   height: 35px;
+}
+
+.account a p{
+   text-decoration: none;
+   color: #6767f6;
+}
+
+.account a p:hover{
+   text-decoration: none;
+   color: #6767f6;
+}
+
+.account a{
+   text-decoration: none;
+}
+
+.account p{
+   color:#858a8e;
+}
